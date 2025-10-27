@@ -28,4 +28,3 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/1808-myimage:v0.${{github.run_number}}
-          #check DOKCER#
